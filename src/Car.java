@@ -2,10 +2,21 @@ public class Car extends Transport{
     int VINnumber;
     int stateNumber;
 
-    public Car(String name, int numberOfSeats) {
-        super(name, numberOfSeats);
+    public int getVINnumber() {
+        return VINnumber;
     }
 
+    public void setVINnumber(int VINnumber) {
+        this.VINnumber = VINnumber;
+    }
+
+    public int getStateNumber() {
+        return stateNumber;
+    }
+
+    public void setStateNumber(int stateNumber) {
+        this.stateNumber = stateNumber;
+    }
 
     public void move(){
         System.out.println("car is moving");
