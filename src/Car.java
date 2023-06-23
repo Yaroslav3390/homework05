@@ -17,7 +17,7 @@ public class Car extends Transport{
     public void setStateNumber(int stateNumber) {
         this.stateNumber = stateNumber;
     }
-
+    @Override
     public void move(){
         System.out.println("car is moving");
 
